@@ -42,8 +42,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 198.0, 154.0, 20.0 ],
-					"presentation_rect" : [ 425.0, 198.0, 154.0, 20.0 ],
+					"patching_rect" : [ 425.0, 256.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 425.0, 256.0, 154.0, 20.0 ],
 					"style" : "",
 					"text" : "Dumpout"
 				}
@@ -55,8 +55,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 198.0, 154.0, 20.0 ],
-					"presentation_rect" : [ 49.0, 198.0, 154.0, 20.0 ],
+					"patching_rect" : [ 49.0, 256.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 49.0, 256.0, 154.0, 20.0 ],
 					"style" : "",
 					"text" : "Matrix output"
 				}
@@ -81,8 +81,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 174.0, 37.0, 22.0 ],
-					"presentation_rect" : [ 425.0, 174.0, 37.0, 22.0 ],
+					"patching_rect" : [ 425.0, 232.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 425.0, 232.0, 37.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -98,8 +98,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 174.0, 37.0, 22.0 ],
-					"presentation_rect" : [ 49.0, 174.0, 37.0, 22.0 ],
+					"patching_rect" : [ 49.0, 232.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 49.0, 232.0, 37.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -134,9 +134,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 49.0, 122.0, 395.0, 22.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 49.0, 122.0, 395.0, 22.0 ],
+					"patching_rect" : [ 49.0, 180.0, 395.0, 22.0 ],
+					"presentation_rect" : [ 49.0, 180.0, 395.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.movie @output_texture 1 @engine viddll @cache_size 2 @autostart 0"
 				}
@@ -164,9 +163,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
