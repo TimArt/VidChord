@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 334.0, 264.0, 430.0, 550.0 ],
+		"rect" : [ 499.0, 192.0, 836.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 67.0, 153.0, 60.0 ],
+					"presentation_rect" : [ 22.0, 67.0, 153.0, 60.0 ],
+					"style" : "",
+					"text" : "Start stop gate's output since jit.movie always sends out the current frame event when stopped"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 138.0, 147.0, 24.0, 22.0 ],
-					"presentation_rect" : [ 138.0, 147.0, 24.0, 22.0 ],
+					"patching_rect" : [ 58.0, 176.0, 24.0, 22.0 ],
+					"presentation_rect" : [ 58.0, 176.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t 0"
 				}
@@ -57,8 +71,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 102.0, 147.0, 24.0, 22.0 ],
-					"presentation_rect" : [ 102.0, 147.0, 24.0, 22.0 ],
+					"patching_rect" : [ 22.0, 176.0, 24.0, 22.0 ],
+					"presentation_rect" : [ 22.0, 176.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t 1"
 				}
@@ -71,8 +85,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 102.0, 114.0, 91.0, 22.0 ],
-					"presentation_rect" : [ 102.0, 114.0, 91.0, 22.0 ],
+					"patching_rect" : [ 22.0, 143.0, 91.0, 22.0 ],
+					"presentation_rect" : [ 22.0, 143.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "route start stop"
 				}
@@ -85,8 +99,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 232.0, 34.0, 22.0 ],
-					"presentation_rect" : [ 34.0, 232.0, 34.0, 22.0 ],
+					"patching_rect" : [ 221.0, 228.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 221.0, 228.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -98,8 +112,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 256.0, 154.0, 20.0 ],
-					"presentation_rect" : [ 425.0, 256.0, 154.0, 20.0 ],
+					"patching_rect" : [ 612.0, 254.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 612.0, 254.0, 154.0, 20.0 ],
 					"style" : "",
 					"text" : "Dumpout"
 				}
@@ -111,8 +125,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 302.0, 154.0, 20.0 ],
-					"presentation_rect" : [ 49.0, 302.0, 154.0, 20.0 ],
+					"patching_rect" : [ 221.0, 292.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 221.0, 292.0, 154.0, 20.0 ],
 					"style" : "",
 					"text" : "Matrix output"
 				}
@@ -124,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 54.0, 154.0, 20.0 ],
-					"presentation_rect" : [ 49.0, 54.0, 154.0, 20.0 ],
+					"patching_rect" : [ 236.0, 50.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 236.0, 50.0, 154.0, 20.0 ],
 					"style" : "",
 					"text" : "Any messages to jit.movie"
 				}
@@ -137,8 +151,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 232.0, 37.0, 22.0 ],
-					"presentation_rect" : [ 425.0, 232.0, 37.0, 22.0 ],
+					"patching_rect" : [ 612.0, 228.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 612.0, 228.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -150,8 +168,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 278.0, 37.0, 22.0 ],
-					"presentation_rect" : [ 49.0, 278.0, 37.0, 22.0 ],
+					"patching_rect" : [ 221.0, 265.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 221.0, 265.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -164,8 +186,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.0, 76.0, 30.0, 22.0 ],
-					"presentation_rect" : [ 49.0, 76.0, 30.0, 22.0 ],
+					"patching_rect" : [ 236.0, 72.0, 30.0, 22.0 ],
+					"presentation_rect" : [ 236.0, 72.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -178,8 +204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 49.0, 180.0, 395.0, 22.0 ],
-					"presentation_rect" : [ 49.0, 180.0, 395.0, 22.0 ],
+					"patching_rect" : [ 236.0, 176.0, 395.0, 22.0 ],
+					"presentation_rect" : [ 236.0, 176.0, 395.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.movie @output_texture 1 @engine viddll @cache_size 2 @autostart 0"
 				}
@@ -231,7 +257,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"midpoints" : [ 245.5, 132.0, 31.5, 132.0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -239,7 +266,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
