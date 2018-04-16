@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 499.0, 192.0, 836.0, 557.0 ],
+		"rect" : [ 489.0, 227.0, 836.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,6 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.0, 67.0, 153.0, 60.0 ],
+					"presentation_linecount" : 4,
 					"presentation_rect" : [ 22.0, 67.0, 153.0, 60.0 ],
 					"style" : "",
 					"text" : "Start stop gate's output since jit.movie always sends out the current frame event when stopped"
@@ -204,8 +205,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 236.0, 176.0, 395.0, 22.0 ],
-					"presentation_rect" : [ 236.0, 176.0, 395.0, 22.0 ],
+					"patching_rect" : [ 236.0, 176.0, 398.0, 22.0 ],
+					"presentation_rect" : [ 236.0, 176.0, 398.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.movie @output_texture 1 @engine viddll @cache_size 2 @autostart 0"
 				}
