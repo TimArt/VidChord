@@ -18,12 +18,15 @@ A MaxForLive MIDI device that triggers videos to play based on MIDI chords.
 
 ## FAQ
 **Q:** How random is it?
+
 **A:** VidChord will randomly choose each video in the folder once. Then, after having played every video once in a random order, the process starts over with a new random order of choosing videos.
 
 **Q:** Will there be more features in the future?
+
 **A:** Yes, I eventually plan to add some video manipulation features such as live color changing, glitching, and video position scrolling.
 
 **Q:** Why do some videos just freeze on the first frame and not play? Or why do my videos drop frames occasionally?
+
 **A:** This is because the video buffer has run out and is trying to load new videos to be ready to trigger them. Essentially, you are triggering videos too quick for the software to load your videos and play them back. To fix this, make the "Video Buffer" a larger number. On my 2013 MacbookPro, I was able to keep the "Video Buffer" at 6 trigger videos at a moderate speed with no issues.
 
 ## Known Issues
