@@ -5,7 +5,7 @@ A MaxForLive MIDI device that triggers videos to play based on MIDI chords.
 ## Video Demonstration & Performance
 [![VidChord Demonstration and Performance](https://img.youtube.com/vi/Zqnrm_rvbxI/0.jpg)](https://www.youtube.com/watch?v=Zqnrm_rvbxI)
 
-[https://www.youtube.com/watch?v=Zqnrm_rvbxI]
+https://www.youtube.com/watch?v=Zqnrm_rvbxI
 
 ## How to Install
 1. Download the .zip file from GitHub.
