@@ -1,4 +1,4 @@
-![logo](https://timart.me/img/vidchord-logo-github.svg)
+![logo](https://github.com/TimArt/VidChord/blob/master/vidchord-logo.svg)
 # VidChord
 A MaxForLive MIDI device that triggers videos to play based on MIDI chords.
 
